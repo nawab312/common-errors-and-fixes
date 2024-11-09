@@ -1,0 +1,6 @@
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+docker: Error response from daemon: Conflict. The container name "/sonarqube" is already in use by container "7eec3a42fd7295046a3659ea5a435e47ca9e4cbf59566d74adbf2c94fd472c38". You have to remove (or rename) that container to be able to reuse that name.
+
+Soln: docker rm sonarqube
+
+*******************************************************************8
